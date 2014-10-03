@@ -1,0 +1,16 @@
+[
+  {
+    "keys": ["ctrl+m", "ctrl+e"],
+    "command": "wrap_statement"
+  },
+
+  {
+    "keys": ["ctrl+m", "e"],
+    "command": "unwrap_statement"
+  },
+
+  {
+    "keys": ["ctrl+alt+w"],
+    "command": "rewrap_statement"
+  }
+]
