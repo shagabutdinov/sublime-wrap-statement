@@ -82,3 +82,9 @@ Hit keyboard shortcut to wrap/unwrap/rewrap statement.
 | Wrap statement   | ctrl+m, ctrl+e     | WrapStatement: wrap   |
 | Unwrap statement | ctrl+m, e          | WrapStatement: unwrap |
 | Rewrap statement | ctrl+alt+w         | WrapStatement: rewrap |
+
+
+### Dependencies
+
+- https://github.com/shagabutdinov/sublime-expression
+- https://github.com/shagabutdinov/sublime-statement
