@@ -1,16 +1,25 @@
 [
   {
     "keys": ["ctrl+m", "ctrl+e"],
-    "command": "wrap_statement"
+    "command": "wrap_statement",
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
     "keys": ["ctrl+m", "e"],
-    "command": "unwrap_statement"
+    "command": "unwrap_statement",
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
     "keys": ["ctrl+alt+w"],
-    "command": "rewrap_statement"
-  }
+    "command": "rewrap_statement",
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
+  },
 ]

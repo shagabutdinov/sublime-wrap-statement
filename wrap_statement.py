@@ -1,8 +1,16 @@
 import sublime
 import sublime_plugin
-from Statement import statement
-from Expression import expression
+
 import re
+
+try:
+  from Statement import statement
+  from Expression import expression
+except ImportError:
+  sublime.error_message("Dependency import failed; please read readme for " +
+   "WrapStatement plugin for installation instructions; to disable this " +
+   "message remove this plugin")
+
 
 DELIMETER = r'\W[\*\+\-\=\/\,\&><]+\W|\s\?|\s:|\|\||&&|,'
 

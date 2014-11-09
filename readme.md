@@ -6,7 +6,7 @@ default) length.
 
 ### Demo
 
-![Demo](https://raw.github.com/shagabutdinov/sublime-wrap-statement/master/demo/demo.gif "Demo")
+![Demo](https://github.com/shagabutdinov/sublime-enhanced-demos/raw/master/wrap_statement.gif "Demo")
 
 
 ### Reason
@@ -86,5 +86,5 @@ Hit keyboard shortcut to wrap/unwrap/rewrap statement.
 
 ### Dependencies
 
-- https://github.com/shagabutdinov/sublime-expression
-- https://github.com/shagabutdinov/sublime-statement
+* [Expression](https://github.com/shagabutdinov/sublime-expression)
+* [Statement](https://github.com/shagabutdinov/sublime-statement)
