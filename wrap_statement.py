@@ -23,7 +23,6 @@ def rewrap_long_lines(view, edit):
     {'nesting': True, 'scope': 'source(?!.*json)(?!.*source)'})
 
   for match in reversed(matches):
-    print(match)
     rewrap(view, edit, sublime.Region(match.end(1), match.end(1)))
 
 def rewrap(view, edit, sel):
