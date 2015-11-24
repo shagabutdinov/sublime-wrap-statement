@@ -6,11 +6,11 @@ import re
 try:
   from Statement import statement
   from Expression import expression
-except ImportError:
+except ImportError as error:
   sublime.error_message("Dependency import failed; please read readme for " +
    "WrapStatement plugin for installation instructions; to disable this " +
-   "message remove this plugin")
-
+   "message remove this plugin; message: " + str(error))
+  raise error
 
 DELIMETER = r'\W[\*\+\-\=\/\,\&><]+\W|\s\?|\s:|\|\||&&|,'
 
